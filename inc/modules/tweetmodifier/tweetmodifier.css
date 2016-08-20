@@ -1,0 +1,24 @@
+.td-left {
+    width: 45%;
+    text-align: left;
+}
+
+.td-right {
+    width: auto;
+    text-align: left;
+}
+
+.td-delete {
+    width: 75px;
+    text-align: center;    
+}
+
+.table { width: 100%; }
+
+.tweetmod-fa-icon-left {
+    position: absolute;
+    top: 0.5em;
+    bottom: 0px;
+    left: 0.4em;
+    margin: auto 0px;    
+}

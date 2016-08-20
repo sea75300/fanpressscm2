@@ -1,0 +1,11 @@
+table.fpmodstarterevents {
+    width: 100%;
+}
+
+table.fpmodstarterevents td {
+    width: 50%;
+}
+
+table.fpmodstarterevents div {
+    display: none;
+}

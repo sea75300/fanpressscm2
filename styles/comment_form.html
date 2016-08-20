@@ -1,0 +1,35 @@
+<div id="commentformbox">
+    <div class="commentformbox_top">%comment_headline%</div>
+    <div class="commentformbox">
+        <form method="post" action="%comment_form_url%" name="cform">
+            <table>
+                <tr>
+                    <td><label for="cname">%comment_name_description%:</label></td>
+                    <td>%comment_name%</td>
+                </tr>
+                <tr>
+                    <td><label for="email">%comment_email_description%:</label></td>
+                    <td>%comment_email%</td>
+                </tr>
+                <tr>
+                    <td><label for="url">%comment_url_description%:</label></td>
+                    <td>%comment_url% (optional)</td>
+                </tr>
+                <tr>
+                    <td><b>%smiley_list_description%:</b></td>
+                    <td>%smiley_list%</td>
+                </tr>
+            </table>
+
+            <p>%comment_text_area%</p>  
+            <p style="font:8pt Courier;">%comment_text_tags%</p>
+            <p>%comment_antispam_plugin%</p>
+            <p>
+                %comment_submit_button%                
+                %comment_reset_button%                
+                %comment_private_button%
+            </p>
+        </form>
+    </div>
+    <div class="commentformbox_btm"></div>    
+</div>

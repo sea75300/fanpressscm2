@@ -1,0 +1,51 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://fonts.googleapis.com/css?family=Raleway:200);
+
+body {
+    font-family: 'Droid Sans', sans-serif !important;
+    text-align: left;
+    background: #ffffff;
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+
+* {
+    font-size: 9pt;
+}
+
+b { color:#0048a9;padding:2px; }
+
+table.fp-module-manager tr.module-manager-list-row3 {
+    height: 10px;
+}
+
+table.fp-module-manager td {
+    padding: 0.5em 0.3em;
+}
+
+table.fp-module-manager td.module-manager-list-td1 {
+    width: 15%;
+    overflow: hidden;
+}
+
+table.fp-module-manager td.module-manager-list-buttons {
+    width: 100px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+table.fp-module-manager td.module-manager-list-td3,
+table.fp-module-manager td.module-manager-list-td4,
+table.fp-module-manager td.module-manager-list-td5,
+table.fp-module-manager td.module-manager-list-td6 {
+    text-align: center;
+}
+
+table.fp-module-manager td.module-manager-list-td6 {
+    width: 15%;
+}
+
+table.fp-module-manager td.module-manager-list-td7 {
+    border-top: 1px dotted #000000;
+}
